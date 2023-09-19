@@ -1,0 +1,13 @@
+.promo-button{
+    color:rgb(231, 222, 222)!important;
+    font-weight: bold!important;
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
+    font-size: 13px!important;
+}
+
+.promo-button:hover{
+    color:white!important;
+    background-color: rgb(136, 130, 130);
+
+    border-radius: 10px;
+}
