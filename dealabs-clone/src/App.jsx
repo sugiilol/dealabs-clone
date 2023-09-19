@@ -1,4 +1,5 @@
 import './App.css'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
 
@@ -6,12 +7,7 @@ function App() {
   return (
     <div className='container'>
       <header>
-        <nav>
-
-        </nav>
-        <div className='breadcrumbs'>
-
-        </div>
+        <Navbar />
       </header>
       <div className='section-product'>
         <section className='product'>

@@ -1,4 +1,7 @@
 #root {
+  font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  line-height: 1;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -14,21 +17,9 @@
 
 .container header {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   grid-area: header;
   height: 100%;
-  width: 100%;
-}
-
-header nav {
-  background-color: var(--main-navbar-color);
-  height: 60%;
-  width: 100%;
-}
-
-.breadcrumbs {
-  background-color: var(--second-navbar-color);
-  height: 40%;
   width: 100%;
 }
 
