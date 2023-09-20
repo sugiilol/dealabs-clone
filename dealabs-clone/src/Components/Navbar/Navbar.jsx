@@ -1,7 +1,6 @@
 import './Navbar.css'
 import logo from './img/logo.png'
 import ButtonMenu from '../ButtonMenu/ButtonMenu'
-import SearchTextfield from '../SearchTextfield/SearchTextfield'
 
 export default function Navbar() {
 
@@ -16,7 +15,7 @@ export default function Navbar() {
                     <li>Discussions</li>
                     <li>Plus</li>
                 </ul>
-                <SearchTextfield />
+                <input  className="input-search" type="text" placeholder='Recherche...'/>
             </nav>
             <div className='breadcrumbs'>
                 <p>Accueil {`>`} Gratuit</p>          

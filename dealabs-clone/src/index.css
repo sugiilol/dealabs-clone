@@ -4,4 +4,5 @@ body{
     --main-bg-color: brown;
     --main-navbar-color : #35373b;
     --second-navbar-color : #1d1f20;
+    --main-font-family : Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
 }
