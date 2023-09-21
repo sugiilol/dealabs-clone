@@ -1,6 +1,9 @@
 import './Navbar.css'
 import logo from './img/logo.png'
 import ButtonMenu from '../ButtonMenu/ButtonMenu'
+import Button from '@mui/material/Button';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+import AddIcon from '@mui/icons-material/Add';
 
 export default function Navbar() {
 
@@ -17,6 +20,8 @@ export default function Navbar() {
                 </ul>
                 <div>
                     <input  className="input-search" type="text" placeholder="Rechercher..."/>
+                    <Button variant="contained" className='custom-button connexion-button'><PermIdentityIcon />Connexion</Button>
+                    <Button variant="contained" className='custom-button add-button'><AddIcon />Poster...</Button>
                 </div>               
             </nav>
             <div className='breadcrumbs'>
