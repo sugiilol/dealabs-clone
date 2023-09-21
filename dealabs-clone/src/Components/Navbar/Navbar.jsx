@@ -15,7 +15,9 @@ export default function Navbar() {
                     <li>Discussions</li>
                     <li>Plus</li>
                 </ul>
-                <input  className="input-search" type="text" placeholder='Recherche...'/>
+                <div>
+                    <input  className="input-search" type="text" placeholder="Rechercher..."/>
+                </div>               
             </nav>
             <div className='breadcrumbs'>
                 <p>Accueil {`>`} Gratuit</p>          
