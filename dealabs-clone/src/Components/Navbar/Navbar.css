@@ -6,7 +6,7 @@ nav {
     height: 60px;
     align-items: center;
     justify-content: center;
-    font-weight: bold!important;
+    font-weight: bold !important;
 }
 
 nav ul {
@@ -14,17 +14,19 @@ nav ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: rgb(231, 222, 222)!important;
+    color: rgb(231, 222, 222) !important;
     list-style: none;
     margin-right: 130px;
 }
 
 nav li {
+    font-size: 14px;
+    color: rgb(201, 201, 201);
     margin-left: 10px;
     margin-right: 10px;
 }
 
-nav img{
+nav img {
     height: 30px;
 }
 
@@ -33,49 +35,71 @@ nav img{
     height: 45px;
     width: 100%;
     color: white;
+    
 }
 
-.breadcrumbs p{
-    margin-left: 17%;
+.breadcrumbs p {
+    font-size: small;
+    margin-left: 18.5%;
 }
 
-.color-button{
-    color:#03a5c1!important;
+.color-button {
+    color: #03a5c1 !important;
 }
 
-.input-search{
+.navbar-second-part{
+    display: flex;
+}
+
+.input-search {
     border-radius: 20px;
     margin-right: 15px;
     padding: px;
     width: 330px;
+    min-width: 200px;
     height: 35px;
-    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
     font-size: 15px;
     padding-left: 20px;
 }
 
-.input-search:focus{
+.input-search:focus {
     outline: none !important;
     transition: 0.2s;
-    border:1px solid white;
+    border: 1px solid white;
     box-shadow: 0 0 0 5px #03a5c1;
 }
 
-.custom-button{
-    border-radius: 20px!important;
+.custom-button {
+    border-radius: 20px !important;
     height: 40px;
-    margin-right: 15px!important;
-    font-size: 12px!important;
-    font-weight: bold!important;
-    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
+    margin-right: 15px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
 }
 
-.connexion-button{
-    background-color: #4b4c4e!important;
-    width: 140px;    
+.connexion-button {
+    background-color: #4b4c4e !important;
+    width: 140px;
 }
 
-.add-button{
-    background-color: #03a5c1!important;
+.add-button {
+    background-color: #03a5c1 !important;
     width: 110px;
+}
+
+@media screen and (max-width: 1150px) {
+    .custom-button span{
+        display: none;
+        margin: 0!important;
+    }
+
+    .connexion-button {
+        width: 20px;
+    }
+
+    .add-button {
+        width: 30px;
+    }
 }

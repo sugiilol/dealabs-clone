@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import AddIcon from '@mui/icons-material/Add';
 
+
 export default function Navbar() {
 
     return (
@@ -18,14 +19,14 @@ export default function Navbar() {
                     <li>Discussions</li>
                     <li>Plus</li>
                 </ul>
-                <div>
+                <div className='navbar-second-part' >
                     <input  className="input-search" type="text" placeholder="Rechercher..."/>
-                    <Button variant="contained" className='custom-button connexion-button'><PermIdentityIcon />Connexion</Button>
-                    <Button variant="contained" className='custom-button add-button'><AddIcon />Poster...</Button>
+                    <Button variant="contained" className='custom-button connexion-button'><PermIdentityIcon /><span>Connexion</span></Button>
+                    <Button variant="contained" className='custom-button add-button'><AddIcon /><span>Poster...</span></Button>
                 </div>               
             </nav>
             <div className='breadcrumbs'>
-                <p>Accueil {`>`} Gratuit</p>          
+                <p>Accueil {` > `} Gratuit</p>          
             </div>
         </>
     )

@@ -1,13 +1,59 @@
-.promo-button{
-    color:rgb(231, 222, 222)!important;
-    font-weight: bold!important;
+.promo-button {
+    color: rgb(231, 222, 222) !important;
+    font-weight: bold !important;
     font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
-    font-size: 13px!important;
+    font-size: 13px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.promo-button:hover{
-    color:white!important;
+.promo-button:hover {
+    color: white !important;
     background-color: rgb(136, 130, 130);
-
     border-radius: 10px;
+}
+
+.item-promo-menu {
+    background-color: green;
+}
+
+.MuiPaper-root {
+    color: rgb(231, 222, 222) !important;
+    margin-top: 12px;
+    margin-left: -110px;
+    border-radius: 10px!important;
+    background-color: var(--second-navbar-color) !important;
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
+}
+
+.container-grid-promo {
+    display: grid !important;
+    width: 400px;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "firstColumnPromo secondColumnPromo" "button-allPromo-custom button-allPromo-custom";
+    padding: 10px;
+}
+
+.first-column-promo {
+    grid-area: firstColumnPromo;
+}
+
+.second-column-promo {
+    grid-area: secondColumnPromo;
+}
+
+.button-allPromo-custom {
+    border-radius: 20px !important;
+    grid-area: button-allPromo-custom;
+    color: white !important;
+    border: 1px solid white !important;
+    margin-top: 10px!important;
+    width: 250px;
+    height: 40px;
+}
+
+.button-allPromo-custom:hover {
+    background-color: grey !important;
 }
