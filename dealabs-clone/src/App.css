@@ -24,14 +24,14 @@
 
 .container .section-product {
   grid-area: sectionproduct;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   height: 100%;
   width: 100%;
 }
 
 .container footer {
   grid-area: footer;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   height: 100%;
   width: 100%;
 }
