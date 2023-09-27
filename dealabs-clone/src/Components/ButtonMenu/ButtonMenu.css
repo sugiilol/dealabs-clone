@@ -1,7 +1,7 @@
 .promo-button {
     color: rgb(231, 222, 222) !important;
     font-weight: bold !important;
-    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
     font-size: 13px !important;
     display: flex;
     align-items: center;
@@ -22,9 +22,9 @@
     color: rgb(231, 222, 222) !important;
     margin-top: 12px;
     margin-left: -110px;
-    border-radius: 10px!important;
+    border-radius: 10px !important;
     background-color: var(--second-navbar-color) !important;
-    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif!important;
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
 }
 
 .container-grid-promo {
@@ -49,7 +49,7 @@
     grid-area: button-allPromo-custom;
     color: white !important;
     border: 1px solid white !important;
-    margin-top: 10px!important;
+    margin-top: 10px !important;
     width: 250px;
     height: 40px;
 }

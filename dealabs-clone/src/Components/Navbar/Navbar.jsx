@@ -11,22 +11,25 @@ export default function Navbar() {
     return (
         <>
             <nav>
-                <ul>
-                    <li><img src={logo} alt="logo-dealabs" /></li>                 
-                    <li><span className='color-button'>Bons plans</span></li>
-                    <li><ButtonMenu /></li>
-                    <li>Gratuit</li>
-                    <li>Discussions</li>
-                    <li>Plus</li>
-                </ul>
+                <div className='navbar-first-part'>
+                    <ul>
+                        <li><img src={logo} alt="logo-dealabs" /></li>
+                        <span className='display-menu-tablet'><li><ButtonMenu /></li></span>
+                        <li><span className='color-button vanish-action'>Bons plans</span></li>
+                        <li className='vanish-action'><ButtonMenu /></li>
+                        <li className='vanish-action'>Gratuit</li>
+                        <li className='vanish-action'>Discussions</li>
+                        <li className='vanish-action'>Plus</li>
+                    </ul>
+                </div>
                 <div className='navbar-second-part' >
-                    <input  className="input-search" type="text" placeholder="Rechercher..."/>
+                    <input className="input-search" type="text" placeholder="Rechercher..." />
                     <Button variant="contained" className='custom-button connexion-button'><PermIdentityIcon /><span>Connexion</span></Button>
                     <Button variant="contained" className='custom-button add-button'><AddIcon /><span>Poster...</span></Button>
-                </div>               
+                </div>
             </nav>
             <div className='breadcrumbs'>
-                <p>Accueil {` > `} Gratuit</p>          
+                <p>Accueil {` > `} Gratuit</p>
             </div>
         </>
     )
