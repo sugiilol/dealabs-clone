@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+import DealCard from './Components/DealCard/DealCard'
 
 function App() {
 
@@ -10,18 +11,7 @@ function App() {
         <Navbar />
       </header>
       <div className='section-product'>
-        <section className='product'>
-
-        </section>
-        <section className='about'>
-
-        </section>
-        <section className='suggestions'>
-
-        </section>
-        <section className='comments'>
-
-        </section>
+        <DealCard />
       </div>
       <footer>
 
