@@ -4,6 +4,7 @@ import ButtonMenu from '../ButtonMenu/ButtonMenu'
 import Button from '@mui/material/Button';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import AddIcon from '@mui/icons-material/Add';
+import ButtonMenuTablet from '../ButtonMenuTablet/ButtonMenuTablet'
 
 
 export default function Navbar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
                 <div className='navbar-first-part'>
                     <ul>
                         <li><img src={logo} alt="logo-dealabs" /></li>
-                        <span className='display-menu-tablet'><li><ButtonMenu /></li></span>
+                        <span className='display-menu-tablet'><li><ButtonMenuTablet /></li></span>
                         <li><span className='color-button vanish-action'>Bons plans</span></li>
                         <li className='vanish-action'><ButtonMenu /></li>
                         <li className='vanish-action'>Gratuit</li>
