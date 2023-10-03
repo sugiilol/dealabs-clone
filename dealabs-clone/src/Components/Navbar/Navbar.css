@@ -110,6 +110,21 @@ nav img {
     }
 }
 
+@media screen and (max-width: 1190px) {
+    .custom-button span{
+        display: none;
+        margin: 0!important;
+    }
+
+    .connexion-button {
+        width: 20px;
+    }
+
+    .add-button {
+        width: 30px;
+    }
+}
+
 
 @media screen and (max-width: 1023px) {
     .vanish-action{
@@ -134,17 +149,7 @@ nav img {
 
 }
 
-@media screen and (max-width: 1190px) {
-    .custom-button span{
-        display: none;
-        margin: 0!important;
-    }
-
-    .connexion-button {
-        width: 20px;
-    }
-
-    .add-button {
-        width: 30px;
-    }
+@media screen and (max-width: 767px) {
+    
 }
+
