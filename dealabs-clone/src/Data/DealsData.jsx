@@ -1,3 +1,5 @@
+import fuckOff from "./img/fuckOff.jpg"
+
 export const deals = [
     {
         id:1,
@@ -5,7 +7,7 @@ export const deals = [
         owner : "Supercell",
         poster : "titi28043",
         title: "1 750 000 Or offerts en résolvant 3 énigmes d\'échecs sur Clash Royale et Clash of Clans",
-        img: "../Components/DealCard/img/fuckOff",
+        img: fuckOff,
         degres: 5818,
         about: "Supercell collabore avec Chess.com pour vous offrir 1 750 000 d\'or en moins de 2min !"
     }

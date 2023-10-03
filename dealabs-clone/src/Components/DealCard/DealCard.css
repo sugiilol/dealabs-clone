@@ -7,9 +7,22 @@
 .card-deal{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: white;
-    margin-left:10%;
-    margin-right: 10%;
+    grid-template-areas: "dealCardPart1 dealCardPart2";
+    background-color: rgb(255, 255, 255);
+    margin-left:16%;
+    margin-right: 16%;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+.deal-card-part1{
+    grid-area: dealCardPart1;
+}
+
+.deal-card-part1 img{
+   width: 100%;
+}
+
+.deal-card-part2{
+    grid-area: dealCardPart2;
 }

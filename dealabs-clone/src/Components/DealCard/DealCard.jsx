@@ -6,10 +6,10 @@ export default function DealCard(){
     return(
         <div className="container-card-deal">
             <div className="card-deal">
-                <div>
-                    <img src="../img/fuckOff.jpg" alt="fuckOffBro" />
+                <div className="deal-card-part1">
+                    <img src={deals[0].img} alt="fuckOffBro" />
                 </div>
-                <div>
+                <div  className="deal-card-part2">
                     <div>
                         <h2>{deals[0].title}</h2>                 
                     </div>
