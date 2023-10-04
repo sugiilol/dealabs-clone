@@ -1,4 +1,6 @@
 .container-card-deal{
+    display: flex;
+    justify-content: center;
     background-color: rgb(230, 225, 225);
     height: 100%;
     padding: 10px;
@@ -9,10 +11,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "dealCardPart1 dealCardPart2";
     background-color: rgb(255, 255, 255);
-    margin-left:16%;
-    margin-right: 16%;
+    width: 1040px;
+    max-height: 500px;
+    padding: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .deal-card-part1{
@@ -20,9 +23,17 @@
 }
 
 .deal-card-part1 img{
-   width: 100%;
+   width: 500px;
 }
 
 .deal-card-part2{
     grid-area: dealCardPart2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.deal-card-header{
+    display: flex;
+    justify-content: space-between;
 }

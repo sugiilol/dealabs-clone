@@ -9,6 +9,7 @@ export const deals = [
         title: "1 750 000 Or offerts en résolvant 3 énigmes d\'échecs sur Clash Royale et Clash of Clans",
         img: fuckOff,
         degres: 5818,
+        comments : 438,
         about: "Supercell collabore avec Chess.com pour vous offrir 1 750 000 d\'or en moins de 2min !"
     }
 ]
