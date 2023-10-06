@@ -1,5 +1,7 @@
 import "./DealCard.css"
 import {deals} from "../../Data/DealsData"
+import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
+import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
 
 export default function DealCard(){
 
@@ -11,17 +13,21 @@ export default function DealCard(){
                 </div>
                 <div  className="deal-card-part2">
                     <div className="deal-card-header">
-                        <div>- {deals[0].degres} +</div>
-                        <div>Partager Commentaire {deals[0].comments}</div>
+                        <div className="deal-degres">
+                            <span className="blue-span">-</span><span className="red-span"> {deals[0].degres}° </span><span className="red-span">+</span>
+                        </div>
+                        <div className="deal-share-comment">
+                            <span><ShareOutlinedIcon />Partager</span><span><QuestionAnswerOutlinedIcon/> {deals[0].comments}</span>
+                        </div>
                     </div>
-                    <div>
+                    <div className="deal-date">
                         Publié le {deals[0].date}
                     </div>
-                    <div>
+                    <div className="deal-title">
                         <h2>{deals[0].title}</h2>                 
                     </div>                   
-                    <div>
-                        Bon plan {deals[0].owner}
+                    <div className="deal-owner">
+                        <a href="#">Bon plan <span>{deals[0].owner}</span></a>
                     </div>
                     <div>
                         Voir le deal

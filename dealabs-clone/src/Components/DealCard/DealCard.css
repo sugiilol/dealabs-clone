@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: rgb(230, 225, 225);
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
     height: 100%;
     padding: 10px;
 }
@@ -36,4 +37,58 @@
 .deal-card-header{
     display: flex;
     justify-content: space-between;
+}
+
+.deal-degres{
+    display: flex;
+    border: 1px solid #8f949b;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5px;
+}
+
+.blue-span{
+    color:blue;
+}
+
+.red-span{
+    color: red;
+}
+
+.deal-share-comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deal-date{
+    color:#8f949b;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    --line-height: 1.25rem
+}
+
+.deal-title{
+    color: #35373b;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.deal-owner{
+    line-height: 1.6;  
+}
+
+.deal-owner a{
+    color:#8f949b!important;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.deal-owner span{
+    color:#03a5c1;
 }
