@@ -92,3 +92,19 @@
 .deal-owner span{
     color:#03a5c1;
 }
+
+.button-watch-the-deal{
+    background-color: #03a5c1!important;
+    border-radius: 40px!important;
+    height: 65px;
+    width: 250px;
+}
+
+.button-watch-the-deal span{
+    font-family: Averta CY, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    --line-height: 1.625rem;
+    font-weight: bold;
+    margin-right: 5px;
+}

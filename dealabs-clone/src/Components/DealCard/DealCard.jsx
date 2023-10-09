@@ -1,7 +1,9 @@
 import "./DealCard.css"
 import {deals} from "../../Data/DealsData"
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
+import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
+import Button from '@mui/material/Button';
 
 export default function DealCard(){
 
@@ -30,7 +32,7 @@ export default function DealCard(){
                         <a href="#">Bon plan <span>{deals[0].owner}</span></a>
                     </div>
                     <div>
-                        Voir le deal
+                        <Button variant="contained" className="button-watch-the-deal"><span>Voir le deal</span><OpenInNewOutlinedIcon /></Button>
                     </div>
                     <div>
                         Partagé par {deals[0].poster}
