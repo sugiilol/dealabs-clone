@@ -4,8 +4,11 @@ import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
 import Button from '@mui/material/Button';
+import UserCard from "../userCard/UserCard"
 
 export default function DealCard(){
+
+    const actualUser = "michel"
 
     return(
         <div className="container-card-deal">
@@ -35,12 +38,12 @@ export default function DealCard(){
                         <Button variant="contained" className="button-watch-the-deal"><span>Voir le deal</span><OpenInNewOutlinedIcon /></Button>
                     </div>
                     <div>
-                        Partagé par {deals[0].poster}
+                        {/* Partagé par {deals[0].poster} */}
+                        <UserCard user={actualUser} />
                     </div>
                 </div>
             </div>                      
-            <div className="card-about-deal">
-                
+                <div className="card-about-deal">             
             </div>  
         </div>            
     )
