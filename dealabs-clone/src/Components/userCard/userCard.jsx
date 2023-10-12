@@ -1,11 +1,10 @@
-import "./userCard.css"
+import "./UserCard.css"
 
 export default function UserCard(props){
 
-    console.log(props)
     return(
-        <>
-            <h2>Salut</h2>
-        </>
+        <div>
+            <h2>{props.user.pseudo}</h2>
+        </div>
     )
 }

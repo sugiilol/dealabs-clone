@@ -1,15 +1,16 @@
 import "./DealCard.css"
 import {deals} from "../../Data/DealsData"
+import {users} from "../../Data/UsersData"
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
 import Button from '@mui/material/Button';
-import UserCard from "../userCard/UserCard"
+import UserCard from "../UserCard/UserCard"
 
 export default function DealCard(){
-
-    const actualUser = "michel"
-
+    
+    const actualUser = users.find( user => user.id === deals[0].userId)
+    
     return(
         <div className="container-card-deal">
             <div className="card-deal">

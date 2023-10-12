@@ -3,9 +3,9 @@ import fuckOff from "./img/fuckOff.jpg"
 export const deals = [
     {
         id:1,
+        userId : 1,
         date:"14 septembre 2023",
-        owner : "Supercell",
-        poster : "titi28043",
+        owner : "Supercell",       
         title: "1 750 000 Or offerts en résolvant 3 énigmes d\'échecs sur Clash Royale et Clash of Clans",
         img: fuckOff,
         degres: 5818,
