@@ -1,0 +1,31 @@
+.container-usercard{
+    display: grid;
+    color:rgb(94, 94, 94);
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas: "avatar user-infos post-like";
+
+}
+
+.usercard-avatar{
+    grid-area: avatar;
+}
+
+.usercard-avatar img{
+    width: 50px;
+}
+
+.usercard-user-infos{
+    grid-area: user-infos;
+}
+
+.usercard-user-infos span{
+    color:#35373b;
+}
+
+.usercard-user-infos icon-custom{
+    height: 0.8em!important;
+}
+
+.usercard-post-like{
+    grid-area:post-like;
+}
